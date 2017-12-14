@@ -1,0 +1,152 @@
+html {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	height: 100%;
+	background-image: url("images/background-img.jpg");
+	background-size: cover;
+	background-position: top right;
+	background-attachment: fixed;
+}
+
+p {
+	font-size: 3vw;
+}
+
+button {
+	font-family: "Bungee Inline";
+	font-size: 2.5vw;
+	background-color: #00B8B3;
+	padding: 1vw 15vw 0vw 15vw;
+}
+
+button:hover {
+	background-color: #00EDE7;
+
+}
+
+h1 {
+	font-family: "Vast Shadow";
+	font-size: 5.5vw;
+}
+
+h2 {
+	font-size: 4vw;
+}
+
+.background-opacity {
+	background-color: rgba(0, 0, 0, 0.75);
+	height: 110vw;
+	width: 100%;
+	position: absolute;
+	z-index: -5;
+}
+
+.main-header {
+	display: inline;
+	font-size: 10vw;
+}
+
+#subheader {
+	font-size: 6.5vw;
+	font-family: "Vast Shadow";
+	color: #FF3192;
+	transform:rotateZ(-3deg);
+	letter-spacing: .75vw;
+	margin-bottom: 3vw;
+}
+
+#correct, #incorrect, #game, #times-up, #game-over, #start-game {
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	margin-top: 3vw;
+	padding: 2vw;
+}
+
+#press-start {
+	font-family: "Vast Shadow";
+	font-size: 3.5vw;
+	margin: 2vw 0vw 2vw 0vw;
+}
+
+#header {
+	background: rgba(0, 0, 0, 0.7);
+	color: white;
+	padding: 2vw;
+}
+
+#header-word-one{
+	margin-right: 1.5vw;
+	margin-top: 3vw;
+	color: #00B8B3;
+	font-family: "Bungee Inline";
+}
+
+#header-word-two{
+	font-family: "Helvetica";
+	margin-left: 1.5vw;
+	font-style: italic;
+	color: #FFFF0C;
+	font-size: 12vw;
+}
+
+#correct, #incorrect {
+	margin-bottom: 10vw;
+}
+
+#timer {
+	margin-top: 3vw;
+	color: #00B8B3;
+	font-weight: bold;
+	font-size: 6vw;
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 70px 70px 70px 70px;
+}
+
+#question {
+	font-size: 4vw;
+}
+
+#answer-one, #answer-two, #answer-three, #answer-four {
+	font-size: 3vw;
+	padding: 2vw 0vw 2vw 0vw;
+}
+
+#answer-one {
+	margin-top: 2vw;
+}
+
+#answer-one:hover {
+	background-color: #00B8B3;
+	cursor: pointer;
+}
+
+#answer-two:hover {
+	background-color: #FFFF0C;
+	color: black;
+	cursor: pointer;
+}
+
+#answer-three:hover {
+	background-color: #FF3192;
+	cursor: pointer;
+}
+
+#answer-four:hover {
+	background-color: white;
+	color: black;
+	cursor: pointer;
+}
+
+#restart-button {
+	margin-top: 2vw;
+}
+
+@media screen and (max-width: 730px) {
+	.background-opacity {
+		height: 100%;
+	}
+}
+
