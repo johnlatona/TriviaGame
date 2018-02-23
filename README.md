@@ -6,7 +6,7 @@ This is a fun Trivia Game I built to experiment with some CSS and JS animation a
 
 ## Demo
 
-![TriviaGame Demo](https://media.giphy.com/media/1euoEtm4vCiJJWNOpC/giphy.gif)
+![TriviaGame Demo](https://media.giphy.com/media/2uIkU4z72hVMABXuNy/giphy.gif)
 
 ## URL
 
